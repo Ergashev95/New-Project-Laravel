@@ -40,7 +40,7 @@ Route::put('products/update{id}',[App\Http\Controllers\ProductController::class,
 Route::delete('products/delete{id}',[App\Http\Controllers\ProductController::class,'delete'])->name('product.delete');
 
 
-     
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
